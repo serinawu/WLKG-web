@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.top-area{
+    display: block;
+    height: 100px;
+    width: 999px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 249px;
+    height: 31px;
+    display: block;
+    float: left;
+    margin: 42px 0 42px 20px;
+}
+.search{
+    width: 230px;
+    height: 29px;
+    float: right;
+    margin: 39px 20px 31px 0;
+    background: #f1f1f1;
+    border: 1px solid #fefefe;
+}
+
+.search .s-text{
+    height: 29px;
+    width: 188px;
+    border: none;
+    float: left;
+    padding-left: 16px;
+    font-size: 10px;
+    background: #f1f1f1;
+}
+
+.search .s-bt{
+    height: 29px;
+    width: 26px;
+    float: left;
+    background: url(/Users/user01/Documents/WLKG/searchbt.png) no-repeat left center;
+    border: none;
+}
+
+#navbar {
+    
+    background: rgb(53, 52, 52);
+    width:999px;
+    height: 60px;
+    margin: 0 auto;
+}
+#navbar ul{
+    margin-left:15px;
+    align-items: center; 
+}
+#navbar ul li{
+    float: left;
+    width: 110px;
+    height: 59px;
+    font-size: 11px;
+    border-right: 1px solid #464a49;
+    text-align: center;
+    line-height: 59px;
+    list-style: none;
+   
+}
+#navbar .last{
+    border-right: none ;
+}
+#navbar li a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+#banner {
+    width: 999px;
+    height: 464px ;
+    border: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* 新。臥。人 */
+#mid {
+    width:999px;
+    height: 240px;
+    margin: 0 auto;
+    
+}
+#mid h4{
+    padding-top:38px ;
+    padding-left:24px ;
+    margin: 0;
+}
+.news{
+    display: block;
+    width: 501px;
+    float: left;
+}
+
+#mid ul{
+    display: block;
+    padding-left: 29px;
+    align-items: center;
+    list-style: none;
+    margin-top: 16px;
+    margin-bottom: 26px;
+}
+#mid ul img{
+    margin-right: 10px;
+}
+#mid ul li{
+    font-size: 12px;
+    color: #4d4d4d;
+}
+#mid ul span{
+    display: block;
+    float: right;
+    padding-right: 29px;
+}
+
+.interduce{
+    float: left;
+    width: 239px;
+    height: 231px;
+    background-color: #f1f1f1;
+}
+.inter-s {
+    display: inline-block;
+    margin: 16px 24px;
+    font-size: 15px;
+    margin-bottom: 27px ;
+}
+.interduce p{
+    display: block;
+    padding: 0 24px;
+    margin-top: 0;
+    font-size: 13px;
+}
+.hire{
+    float: left;
+    width: 255px;
+    background-color: #fbfbfb;
+}
+.hire p{
+    font-size:13px ;
+    padding: 0 24px;
+    margin-top: 16px;
+}
+.hire a{
+    display: inline-block;
+    margin-top: 57px ;
+    margin-left:24px ;
+}
+.hire .tree{
+    display: block;
+    float: right;
+    margin-right: 17px;
+    margin-bottom: 14px ;
+}
+/* 臥龍市場 */
+.market{
+    width: 959px;
+    height: 240px;
+    margin: 0 auto;
+    padding: 30px 20px 35px 20px;
+}
+
+
+.market h4{
+    height: 35px;
+    padding: 0;
+}
+.market .content .ma-it{
+    width: 210px;
+    height: 187px;
+    float: left;
+
+    margin-right: 38px;
+}
+.market .content a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #4d4d4d;
+}
+
+.market .content .ma-it-4{
+    width: 210px;
+    height: 187px;
+    float: left;
+    
+    margin-right: 0;
+}
+
+/* 產品中心 */
+.bottom {
+    width:999px;
+    height: 280px;
+    display: block;
+    background-color: #e5e5e5;
+    margin:0 auto;
+}
+.bottom ul{
+    margin-top: 0;
+}
+.product {
+    width: 452px;
+    height: 220px;
+    float: left;
+}
+.product h4 {
+    padding: 0;
+    border-bottom:1px solid #c2c2c2;
+}
+
+.tech {
+    width: 153px;
+    height: 220px;
+    float: left;
+    margin: 0 49px;
+}
+.tech h4 {
+    padding: 0;
+    border-bottom:1px solid #c2c2c2;
+}
+.sale{
+    width: 256px;
+    height: 220px;
+    float: left;
+    margin-left: 20px ;
+}
+.sale img{
+    margin-top: 13px ;
+    margin-left: 35px ;
+}
+
+.sale h4 {
+    font-size: 17px;
+    padding: 0;
+    border-bottom:1px solid #c2c2c2;
+    
+
+}
+.bo-title{
+    font-size: 17px;
+    color:#4d4d4d;
+    height: 28px;
+    margin-top:38px ;
+    padding-bottom: 11px;
+    margin-left:24px ;
+}
+.bottom ul{
+    float: left;
+    align-items: center;
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.bottom ul li{
+    margin-bottom: 12px;
+} 
+.bottom ul li a{
+    font-size: 12px;
+    color: #4d4d4d;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+
+#footer{
+    width:999px;
+    height: 82px ;
+    margin:0 auto;
+}
+#footer p{
+    font-size: 9px;
+    color: #919191;
+}
+#copyright{
+    padding-top: 24px;
+    font-size:  9px;
+    color: #919191;
+}
+#copyright .co-url{
+    display: flex;
+    float: left;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 45px;
+    margin-right: 100px;
+}
+
+#copyright .co-url li{
+    font-size:  9px;
+    color: #919191;
+    padding: 0 9px 0 9px;
+    border-right:1px solid  #919191;
+    padding: 0 3px 0 3px;
+}
+#copyright #co-urll {
+    border-right:1px solid  #ffffff;
+}
+
+#copyright .share {
+    float: right;
+    font-size:  9px;
+    color: #464a49;
+    margin-top: 0;
+    margin-left: 18px;
+    margin-right: 18px ;
+}
+
+
+#copyright .share p{
+    display: inline-block;
+}
+
+#copyright .share a{
+    text-decoration: none ;
+}
